@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPFKinect18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <k:KinectSensorChooserUI HorizontalAlignment="Center" VerticalAlignment="Top" Name="sensorChooserUi" />
+        <Label x:Name="KinectStatus" Content="Kinect status change"
+               HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25">
+        </Label>
+    </Grid>
+</Window>
